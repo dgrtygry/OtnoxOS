@@ -11,7 +11,7 @@ set /p choice=Enter your choice (1-2):
 
 if "%choice%"=="1" (
     echo Loading about information...
-    call about.asm
+    call about.com
     echo.
     pause
     goto menu
