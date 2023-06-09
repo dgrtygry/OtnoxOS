@@ -1,6 +1,7 @@
 @echo off
 rem This is SYSTEM.BAT
-
+call functions.com
+call services.com
 :menu
 cls
 echo 1. About
