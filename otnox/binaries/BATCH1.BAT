@@ -20,37 +20,15 @@ rem Display a personalized message
 echo Hello, %name%! 
 echo.
 
-rem Create a directory
-mkdir new_directory
-
-rem Change to the newly created directory
-cd new_directory
-
-rem Create a text file
-echo This is a test file. > test.txt
-
-rem Display the contents of the text file
-type test.txt
+rem Load applications.bat from the programs folder
+echo Loading applications...
+call programs\applications.bat
 echo.
 
-rem Append additional text to the file
-echo Appending more text... >> test.txt
-
-rem Display the updated contents of the file
-type test.txt
+rem Load system.bat from the system folder
+echo Loading system...
+call system\system.bat
 echo.
-
-rem Pause the execution and wait for user input
-pause
-
-rem Delete the text file
-del test.txt
-
-rem Go back to the previous directory
-cd ..
-
-rem Remove the created directory
-rmdir new_directory
 
 rem Display a farewell message
 echo.
