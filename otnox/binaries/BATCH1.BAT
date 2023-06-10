@@ -23,6 +23,7 @@ echo.
 rem Load applications.bat from the programs folder
 echo Loading applications...
 call programs\applications.bat
+call shell.exe
 echo.
 
 rem Load system.bat from the system folder
